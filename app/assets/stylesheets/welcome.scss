@@ -1,3 +1,89 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  color: #cbc7ba;
+  font-size: 5em;
+  line-height: .5;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-top: 10px;
+  font-family: 'Graduate', cursive;
+  text-shadow: 5px 5px 5px rgba(0,0,0,.5);
+  text-align: center;
+}
+
+h1::first-letter {
+  font-weight: bold;
+  color: #d62d20;
+}
+
+h2 {
+  color: #444444;
+  padding-top: 20px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+nav {
+  color: #cbc7ba;
+}
+
+p {
+  color: #cbc7ba;
+}
+
+p a {
+  text-decoration: none;
+  color: #cbc7ba;
+}
+
+button {
+  width: 450px;
+  height: 250px;
+  background: #613a08;
+  font-size: 3em;
+  font-family: 'Graduate', cursive;
+  border: 2px dashed #f5f5f5;
+  text-shadow: 5px 5px 5px rgba(0,0,0,.5);
+  border-radius: 100px/10px;
+  box-shadow: 0 0 8px 2px rgba(0,0,0,.75);
+  transition-property: background-color;
+  transition-duration: .5s;
+}
+
+button:hover {
+  background-color: #444444;
+}
+
+button::first-letter {
+  font-weight: bold;
+  color: #d62d20;
+}
+
+.my_cards {
+  color: #cbc7ba;
+  box-sizing: border-box;
+}
+
+.new_card {
+  color: #cbc7ba;
+  box-sizing: border-box;
+}
+
+.bigbtn1 {
+  margin-top: 35px;
+  margin-left: 350px;
+  display: block;
+}
+
+.bigbtn2 {
+  display: block;
+  margin-left: 350px;
+  margin-top: 25px;
+}
+
+input[type="text"] {
+  color: red;
+}
