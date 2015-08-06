@@ -1,5 +1,55 @@
+
+
+
 .about {
-  margin-left: 50px;
+  z-index: -1;
+  box-shadow: 0 0 8px 2px rgba(0,0,0,.75);
+  margin-left: 5px;
   padding-top: 30px;
   font-size: 2em;
+  background-color: #cbc7ba;
+  width: 100%;
+  padding-top: 5px;
+  margin-top: 30px;
+  p {
+  color: #2b2b26;
+  margin: 18px 0px 18px 30px;
+  width: 65%;
+  }
+  small {
+    color: #2b2b26;
+    margin: 20px 0px 5px 30px;
+    width: 60%;
+  }
+}
+
+.eg {
+  small{
+  margin-bottom: 15px;
+  width: 60%;
+  }
+}
+
+p.eg {
+  margin: 2px 0px 2px 30px;
+}
+
+aside {
+  float: right;
+  display: block;
+  box-sizing: border-box;
+  border: 5px dotted white;
+  width: 27%;
+  margin-left: 5%;
+  margin-top: 40px;
+    h4 {
+      margin: 12px 0px 0px 0px;
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 1.25em;
+      margin-left: 7px;
+      margin-top: 10px;
+      color: black;
+    }
 }

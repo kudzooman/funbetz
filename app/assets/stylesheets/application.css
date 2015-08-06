@@ -25,7 +25,7 @@ body {
   padding: 20px;
   margin: 0 auto;
   box-shadow: 10px 10px 10px rgba(0,0,0,.5);
-  background-color: #24a318;
+  background-color: #92927F;
 }
 
 nav {
@@ -49,7 +49,7 @@ ul {
   list-style: none;
 }
 
-li {
+li, .nav {
   display: inline;
   font-family: 'Graduate', cursive;
   font-size: 1.5em;

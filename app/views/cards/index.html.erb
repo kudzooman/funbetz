@@ -1,2 +1,113 @@
-<h1>Cards#index</h1>
-<p>Find me in app/views/cards/index.html.erb</p>
+<h1>9/3/15 - 9/7/15</h1>
+<h4>click here for last week's cards</h4>
+
+  <h3>Payouts</h3>
+ <div class="payouts">
+   <p>3 picks pays 6/1</p>
+   <p>4 picks pays 10/1</p>
+   <p>5 picks pays 20/1</p>
+   <p>6 picks pays 40/1</p>
+   <p>7 picks pays 80/1</p>
+   <p>8 picks pays 100/1</p>
+   <p>9 picks pays 150/1</p>
+   <p>10 picks pays 300/1</p>
+  </div>
+
+  <div class="med_btn">
+    <p><%= link_to 'New Card', new_card_path %></p>
+  </div>
+
+<div class="cards">
+  <div class="card_name">
+    <p class="card_name_text">Card created at: <%= Time.now.strftime("%m/%d/%Y %H:%M") %></p>
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Favorite</th>
+        <th>Point Spread</th>
+        <th>Underdog</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class"team1">SOUTH CAROLINA</td>
+        <td class="spread">3.5</td>
+        <td class="my_pick">North Carolina</td>
+        <td class="score">0-0</td>
+      </tr>
+
+      <tr>
+        <td class="my_pick">CENT. FLORIDA</td>
+        <td class="spread">17</td>
+        <td class="team2">Florida Int.</td>
+        <td class="score">0-0</td>
+      </tr>
+
+      <tr>
+        <td class="my_pick">Oklahoma St</td>
+        <td class="spread">20.5</td>
+        <td class="team2">CENT. MICHIGAN</td>
+        <td class="score">0-0</td>
+      </tr>
+
+      <tr>
+        <td class"team1">UTAH</td>
+        <td class="spread">3.5</td>
+        <td class="my_pick">Michigan</td>
+        <td class="score">0-0</td>
+      </tr>
+
+      <tr>
+        <td class="my_pick">TCU</td>
+        <td class="spread">16</td>
+        <td class="team2">MINNESOTA</td>
+        <td class="score">0-0</td>
+      </tr>
+
+      <tr>
+        <td class"team1">Duke</td>
+        <td class="spread">13.5</td>
+        <td class="my_pick">TULANE</td>
+        <td class="score">0-0</td>
+      </tr>
+
+      <tr>
+        <td class="my_pick">Ohio</td>
+        <td class="spread">7</td>
+        <td class="team2">IDAHO</td>
+        <td class="score">0-0</td>
+      </tr>
+
+      <tr>
+        <td class="my_pick">ARIZONA</td>
+        <td class="spread">30.5</td>
+        <td class="team2">TX San Antonio</td>
+        <td class="score">0-0</td>
+      </tr>
+
+      <tr>
+        <td class="my_pick">Colorado</td>
+        <td class="spread">5</td>
+        <td class="team2">HAWAII</td>
+        <td class="score">0-0</td>
+      </tr>
+
+      <tr>
+        <td class="my_pick">ARKANSAS</td>
+        <td class="spread">35</td>
+        <td class="team2">Texas El Paso"</td>
+        <td class="score">0-0</td>
+      </tr>
+    </body>
+  </table>
+
+    <div class="bet_odds">
+      <p class="bet_odds_text">Picks: 10</p>
+      <p class="bet_odds_text">Bet: 25
+        <span>(Odds to win: 300/1)</span>
+      </p>
+        <p class="bet_odds_text">Win: 7500</p>
+    </div>
+</div>

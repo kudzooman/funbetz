@@ -1,3 +1,150 @@
 // Place all the styles related to the cards controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  margin: 30px 0px 0px 0px;
+}
+
+h3 {
+  margin: 30px 0px 0px 0px;
+  font-family: 'Graduate', cursive;
+}
+
+h4 {
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+}
+
+td.my_pick {
+  background-color: #24a318;
+}
+
+.payouts {
+  width: 200px;
+  border: 5px solid black;
+  background-color: #ffffff;
+  p {
+    font-family: 'Graduate', cursive;
+    margin: 0px 0px 0px 10px;
+    padding: 4px 0px 0px 0px;
+    color: black;
+  }
+}
+
+thead {
+  color: #cbc7ba;
+  font-family: 'Graduate', cursive;
+  text-shadow: 5px 5px 5px rgba(0,0,0,.5);
+  font-size: .75em
+}
+
+.card {
+  box-shadow: 0 0 8px 2px rgba(0,0,0,.75);
+  border: 2px white;
+  border-style: dashed;
+  width: 550px;
+  background-color: #613a08;
+  color: black;
+  margin:-170px 0px 5px 290px;
+  font-size: 2em
+}
+
+.cards {
+  font-family: 'Graduate', cursive;
+  box-shadow: 0 0 8px 2px rgba(0,0,0,.75);
+  border: 2px dashed white;
+  width: 570px;
+  background-color: #613a08;
+  color: black;
+  margin:-170px 0px 5px 290px;
+  font-size: 1.25em
+}
+
+.spread {
+  text-align: center;
+  font-family: 'Graduate', cursive;
+}
+
+.team1 {
+  font-family: 'Graduate', cursive;
+}
+
+td {
+  border-style: solid;
+  border-color: black;
+  background-color: #cbc7ba;
+}
+
+td.spread {
+  background-color: white;
+}
+
+.btn.btn-danger {
+  background-color: #cbc7ba;
+  font-family: 'Graduate', cursive;
+  font-size: .5em;
+  height: 50px;
+}
+
+.btn.btn-danger:hover {
+  background-color: #24a318;
+}
+
+.save_bet {
+  margin: 0px 0px 50px 495px;
+}
+
+
+input {
+  font-size: 1.5em;
+  width: 200px;
+  font-family: 'Graduate', cursive;
+}
+
+.btn.btn-success {
+  background-color: #d62d20;
+  font-family: 'Graduate', cursive;
+  font-size: 1.5em;
+  height: 50px;
+}
+
+span.bet_text {
+  font-family: 'Graduate', cursive;
+  color: #cbc7ba;
+}
+
+.bet_odds {
+  border: 5px solid black;
+  background-color: #cbc7ba;
+}
+
+.bet_odds_text {
+  color: black;
+  margin: 2px 0px 0px 7px;
+  font-size: 1em;
+}
+
+.card_name {
+  border: 5px solid black;
+  background-color: #cbc7ba;
+  text-align: center;
+}
+
+.card_name_text {
+  color: black;
+  margin: 2px 0px 0px 7px;
+  font-size: 1.25em;
+}
+
+.med_btn {
+  width: 180px;
+  text-align: center;
+  background-color: #613a08;
+  margin: 20px 0px 0px 15px;
+  font-family: 'Graduate', cursive;
+  font-size: 1.5em;
+  border: 2px dashed #f5f5f5;
+  text-shadow: 5px 5px 5px rgba(0,0,0,.5);
+  border-radius: 100px/10px;
+  box-shadow: 0 0 8px 2px rgba(0,0,0,.75);
+}

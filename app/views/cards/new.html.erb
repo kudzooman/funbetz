@@ -1,6 +1,268 @@
-<h1>Cards#new</h1>
-<p>Find me in app/views/cards/new.html.erb</p>
+<h1>New Card</h1>
 
-<input type="text">
-  <span>Place your bet</span>
-</input>
+  <h3>Payouts</h3>
+ <div class="payouts">
+   <p>3 picks pays 6/1</p>
+   <p>4 picks pays 10/1</p>
+   <p>5 picks pays 20/1</p>
+   <p>6 picks pays 40/1</p>
+   <p>7 picks pays 80/1</p>
+   <p>8 picks pays 100/1</p>
+   <p>9 picks pays 150/1</p>
+   <p>10 picks pays 300/1</p>
+  </div>
+   <%= form_for @card do |f| %>
+<div class="card">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Favorite</th>
+        <th>Point Spread</th>
+        <th>Underdog</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class"team1"><%= f.submit "SOUTH CAROLINA", class: 'btn btn-danger' %></td>
+        <td class="spread">3.5</td>
+        <td class="team2"><%= f.submit "North Carolina", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "CENT. FLORIDA", class: 'btn btn-danger' %></td>
+        <td class="spread">17</td>
+        <td class="team2"><%= f.submit "Florida Int.", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "Oklahoma St", class: 'btn btn-danger' %></td>
+        <td class="spread">20.5</td>
+        <td class="team2"><%= f.submit "CENT. MICHIGAN", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "UTAH", class: 'btn btn-danger' %></td>
+        <td class="spread">3.5</td>
+        <td class="team2"><%= f.submit "Michigan", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "TCU", class: 'btn btn-danger' %></td>
+        <td class="spread">16</td>
+        <td class="team2"><%= f.submit "MINNESOTA", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "Duke", class: 'btn btn-danger' %></td>
+        <td class="spread">13.5</td>
+        <td class="team2"><%= f.submit "TULANE", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "Ohio", class: 'btn btn-danger' %></td>
+        <td class="spread">7</td>
+        <td class="team2"><%= f.submit "IDAHO", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "ARIZONA", class: 'btn btn-danger' %></td>
+        <td class="spread">30.5</td>
+        <td class="team2"><%= f.submit "TX San Antonio", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "Colorado", class: 'btn btn-danger' %></td>
+        <td class="spread">5</td>
+        <td class="team2"><%= f.submit "HAWAII", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "VANDERBILT", class: 'btn btn-danger' %></td>
+        <td class="spread">3.5</td>
+        <td class="team2"><%= f.submit "W. Kentucky", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "Baylor", class: 'btn btn-danger' %></td>
+        <td class="spread">26</td>
+        <td class="team2"><%= f.submit "SMU", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "Michigan St.", class: 'btn btn-danger' %></td>
+        <td class="spread">23.5</td>
+        <td class="team2"><%= f.submit "W. MICHIGAN", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "ILLINOIS", class: 'btn btn-danger' %></td>
+        <td class="spread">16</td>
+        <td class="team2"><%= f.submit "Kent", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "BOISE ST.", class: 'btn btn-danger' %></td>
+        <td class="spread">11</td>
+        <td class="team2"><%= f.submit "Washington", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "E. MICHIGAN", class: 'btn btn-danger' %></td>
+        <td class="spread">4.5</td>
+        <td class="team2"><%= f.submit "Old Dominion", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "FLORIDA", class: 'btn btn-danger' %></td>
+        <td class="spread">38</td>
+        <td class="team2"><%= f.submit "New Mexico St.", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "Penn St", class: 'btn btn-danger' %></td>
+        <td class="spread">10</td>
+        <td class="team2"><%= f.submit "TEMPLE", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "TULSA", class: 'btn btn-danger' %></td>
+        <td class="spread">14.5</td>
+        <td class="team2"><%= f.submit "Florida Atlantic", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "UCLA", class: 'btn btn-danger' %></td>
+        <td class="spread">15.5</td>
+        <td class="team2"><%= f.submit "Virginia", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "Stanford", class: 'btn btn-danger' %></td>
+        <td class="spread">10</td>
+        <td class="team2"><%= f.submit "NORTHWESTERN", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "Auburn", class: 'btn btn-danger' %></td>
+        <td class="spread">10.5</td>
+        <td class="team2"><%= f.submit "LOUISVILLE", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "TEXAS A&M", class: 'btn btn-danger' %></td>
+        <td class="spread">3</td>
+        <td class="team2"><%= f.submit "Arizona St.", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "NEBRASKA", class: 'btn btn-danger' %></td>
+        <td class="spread">6.5</td>
+        <td class="team2"><%= f.submit "Brigham Young", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "NC STATE", class: 'btn btn-danger' %></td>
+        <td class="spread">23</td>
+        <td class="team2"><%= f.submit "Troy", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "NO ILLINOIS", class: 'btn btn-danger' %></td>
+        <td class="spread">17</td>
+        <td class="team2"><%= f.submit "North Las Vegas", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "OKLAHOMA", class: 'btn btn-danger' %></td>
+        <td class="spread">35</td>
+        <td class="team2"><%= f.submit "Akron", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "TENNESSEE", class: 'btn btn-danger' %></td>
+        <td class="spread">20</td>
+        <td class="team2"><%= f.submit "Bowling Green", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "GEORGIA", class: 'btn btn-danger' %></td>
+        <td class="spread">33.5</td>
+        <td class="team2"><%= f.submit "UL Monroe", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "KENTUCKY", class: 'btn btn-danger' %></td>
+        <td class="spread">14</td>
+        <td class="team2"><%= f.submit "UL Lafayette", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "ARKANSAS", class: 'btn btn-danger' %></td>
+        <td class="spread">35</td>
+        <td class="team2"><%= f.submit "Texas El Paso", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "WEST VIRGINIA", class: 'btn btn-danger' %></td>
+        <td class="spread">27.5</td>
+        <td class="team2"><%= f.submit "Georgia Southern", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "NOTRE DAME", class: 'btn btn-danger' %></td>
+        <td class="spread">9</td>
+        <td class="team2"><%= f.submit "Texas", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "FLORIDA ST.", class: 'btn btn-danger' %></td>
+        <td class="spread">37</td>
+        <td class="team2"><%= f.submit "Texas St", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "Alabama", class: 'btn btn-danger' %></td>
+        <td class="spread">10</td>
+        <td class="team2"><%= f.submit "WISCONSIN", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "Miss. St.", class: 'btn btn-danger' %></td>
+        <td class="spread">17.5</td>
+        <td class="team2"><%= f.submit "SOUTHERN MISS", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "SOUTHERN CAL", class: 'btn btn-danger' %></td>
+        <td class="spread">29</td>
+        <td class="team2"><%= f.submit "Arkansas St.", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "MARSHALL", class: 'btn btn-danger' %></td>
+        <td class="spread">4</td>
+        <td class="team2"><%= f.submit "Purdue", class: 'btn btn-danger' %></td>
+      </tr>
+
+      <tr>
+        <td class"team1"><%= f.submit "Ohio St.", class: 'btn btn-danger' %></td>
+        <td class="spread">14.5</td>
+        <td class="team2"><%= f.submit "VIRGINIA TECH", class: 'btn btn-danger' %></td>
+      </tr>
+
+
+
+    </tbody>
+  </table>
+  <input type="text">
+    <span class="bet_text">Place your bet</span>
+  </input>
+</div>
+
+
+       <div class="save_bet">
+         <%= f.submit "Save", class: 'btn btn-success' %>
+       </div>
+     <% end %>
+   </div>
+ </div>
