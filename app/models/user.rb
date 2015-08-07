@@ -1,4 +1,8 @@
 class User < ActiveRecord::Base
+  has_many :cards
+  has_many :credits
+  has_many :picks, through: :game
+  has_many :bets, through: :cards
   # attr_accessible :username, :password, :password_confirmation
 has_secure_password
   attr_accessor :password
