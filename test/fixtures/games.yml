@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  home: false
+  spread: 1.5
+  day: MyString
+  date: 2015-08-07
+  time: 2015-08-07 05:42:51
+  weather: MyText
+  winner: false
+  card_id: 
+
+two:
+  home: false
+  spread: 1.5
+  day: MyString
+  date: 2015-08-07
+  time: 2015-08-07 05:42:51
+  weather: MyText
+  winner: false
+  card_id: 

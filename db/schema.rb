@@ -11,13 +11,33 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150807030044) do
+ActiveRecord::Schema.define(version: 20150807095606) do
 
   create_table "cards", force: :cascade do |t|
     t.datetime "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "user_id"
   end
+
+  add_index "cards", ["user_id"], name: "index_cards_on_user_id"
+
+  create_table "games", force: :cascade do |t|
+    t.boolean  "home"
+    t.float    "spread"
+    t.string   "day"
+    t.date     "date"
+    t.time     "time"
+    t.text     "weather"
+    t.boolean  "winner"
+    t.integer  "card_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer  "team_id"
+  end
+
+  add_index "games", ["card_id"], name: "index_games_on_card_id"
+  add_index "games", ["team_id"], name: "index_games_on_team_id"
 
   create_table "teams", force: :cascade do |t|
     t.string   "name"
