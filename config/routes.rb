@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get "sign_up" => 'users#new'
   get "log_out" => 'sessions#destroy'
 
+  resources :teams
   resources :users
   resources :sessions
   resources :cards
